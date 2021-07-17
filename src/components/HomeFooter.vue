@@ -2,7 +2,7 @@
 <v-footer dark padless id="footer">
     <v-card flat tile class="grey darken-4 white--text text-center" dark dense width="100%">
       <v-card-text>
-        <v-btn v-for="contactLink in contactLinks" :key="contactLink" class="mx-4 white--text pt-0" :href="contactLink.link">
+        <v-btn v-for="contactLink in contactLinks" :key="contactLink" class="mx-4 white--text pt-0 grey-darken-4" :href="contactLink.link" text>
           <v-icon x-large>
             {{ contactLink.icon }}
           </v-icon>
@@ -10,7 +10,7 @@
       </v-card-text>
 
       <v-card-text class="white--text">
-        <v-dialog v-model="dialog">
+        <v-dialog v-model="dialog" text>
           <template v-slot:activator="{on, attrs}">
             <v-btn text v-bind="attrs" v-on="on">
               Legal Disclosure

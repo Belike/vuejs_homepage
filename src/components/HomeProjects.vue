@@ -5,7 +5,7 @@
       </v-layout>
       <v-layout row wrap>
           <v-flex xs12 sm12 md4>
-              <v-card elevation="12" class="d-flex flex-column">
+              <v-card elevation="12" class="d-flex flex-column mx-auto">
                   <v-img src="../assets/img/website_code.png" height="500px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
@@ -16,28 +16,26 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div>
-                            <div>This is the first time I've stepped outside of my comfort zone to invest my leisure time in learning how to build a personal website using a framework I like: Vue.js<br/> No raw HTML, No CSS!</div>
-                        </div>
                     </v-card-title>
-                    <v-spacer></v-spacer>
+                    <v-card-text>
+                        <h3> This is the first time I've stepped outside of my comfort zone to invest my leisure time in learning how to build a personal website using a framework I like: Vue.js<br/> No raw HTML, No CSS!</h3>
+                    </v-card-text>
                     <v-divider></v-divider>
                     <v-card-actions>
                         <v-btn color="teal accent-4" text @click="reveal=true">Read more</v-btn>
                     </v-card-actions>
                     <v-expand-transition>
-                        <v-card v-if="reveal" class="transition-fast-in-fast-out v-card--reveal overflow-y-auto d-flex flex-column" style="height: 100%">
-                            <v-card-text>
-                                More will follow once this webpage has successfully be deployed!
+                        <v-card v-if="reveal" class="transition-fast-in-fast-out v-card--reveal overflow-y-auto d-flex flex-column" style="height: 100%;">
+                            <v-card-text class="pb-0">
+                                More will follow once this webpage has successfully been deployed!
                             </v-card-text>
-                            <v-spacer></v-spacer>
                             <v-divider></v-divider>
                             <v-card-actions class="pt-0">
                                 <v-btn color="teal accent-4" text @click="reveal=false">Close</v-btn>
                             </v-card-actions>
-                        </v-card>
-                    </v-expand-transition>
-              </v-card>
+                            </v-card>
+                        </v-expand-transition>
+                    </v-card>
           </v-flex>
       </v-layout>
   </v-container>

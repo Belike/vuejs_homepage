@@ -1,14 +1,14 @@
 <template>
     <span>
-        <v-app-bar color="grey darken-4" dark dense class="hidden-md-and-md" fixed>
-                <v-btn flat color="grey lighten-1" to="#home">
+        <v-app-bar color="grey darken-4" dark dense class="hidden-sm-and-down" fixed>
+                <v-btn color="grey lighten-1" to="#home">
                     <v-icon>
                         mdi-home
                     </v-icon>
                 </v-btn>
                 <v-spacer></v-spacer>
                 <v-btn color="light-blue accent-4" to="#projects">Projects</v-btn>
-                <v-btn flat color="grey lighten-1" to="#footer">Contact</v-btn>
+                <v-btn color="grey lighten-1" to="#footer">Contact</v-btn>
         </v-app-bar>
         <v-app-bar color="grey darken-4" dense class="hidden-md-and-up" fixed>
             <v-app-bar-nav-icon color="white" @click="drawer = !drawer"></v-app-bar-nav-icon>
