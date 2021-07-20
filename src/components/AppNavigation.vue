@@ -15,7 +15,7 @@
         </v-app-bar>
         <v-navigation-drawer v-model="drawer" temporary app>
             <v-list nav dense>
-                <v-list-item-group v-model="group" active-class="grey lighten-1--text text--accent-4">
+                <v-list-item-group active-class="grey lighten-1--text text--accent-4">
                     <v-list-item to="#home">
                     Home
                     </v-list-item>
