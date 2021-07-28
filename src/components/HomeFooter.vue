@@ -49,8 +49,8 @@ export default {
             contactLinks: [
                 {
                     name: "Email",
-                    value: "belike1337@gmail.com",
-                    link: "mailto:belike1337@gmail.com",
+                    value: "normanluering@gmail.com",
+                    link: "mailto:normanluering@gmail.com",
                     icon: "mdi-email"
                 },
                 {

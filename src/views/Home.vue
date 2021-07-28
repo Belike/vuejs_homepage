@@ -1,9 +1,11 @@
 <template>
   <span>
+    <div class="home-screen">
     <home-screen></home-screen>
     <home-details></home-details>
     <home-projects></home-projects>
     <home-footer></home-footer>
+    </div>
   </span>
 </template>
 
@@ -23,3 +25,9 @@ export default {
   }
 };
 </script>
+<style scoped>
+    .home-screen {
+        background-size: cover;
+        background-color: #EEEEEE;
+    }
+</style>

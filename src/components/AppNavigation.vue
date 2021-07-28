@@ -1,7 +1,7 @@
 <template>
     <span>
         <v-app-bar color="grey darken-4" dark dense class="hidden-sm-and-down" fixed>
-                <v-btn color="grey lighten-1" to="#home">
+                <v-btn color="grey lighten-1" to="#home" @click.native="home">
                     <v-icon>
                         mdi-home
                     </v-icon>
@@ -37,19 +37,14 @@ export default {
     data() {
         return {
             appTitle: 'Portfolio Norman',
-            drawer: false,
-            items: [
-                { title: 'Menu', icon: "mdi-cash-multiple"},
-                { title: 'Sign In', icon: "mdi-cash-multiple" },
-                { title: 'Join', icon: "mdi-cash-multiple" }
-            ]
+            drawer: false
         }
     },
     watch: {
         group() {
             this.drawer = false;
         }
-    }
+    },
 };
 </script>
 

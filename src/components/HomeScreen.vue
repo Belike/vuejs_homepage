@@ -13,7 +13,8 @@
                 <div class="display-2 font-weight-black white--text text-xs-center">Norman Lüring</div>
             </v-row>
             <v-row justify="center" align="center">
-                <div class="display-1 white--text text-xs-center">Software Developer | BPMN Enthusiast | Technologist</div>
+                <div class="display-1 white--text text-xs-center hidden-sm-and-down">Software Developer | BPMN Enthusiast | Technologist</div>
+                <div class="display-1 white--text text-xs-center hidden-md-and-up">Software Developer | <br> BPMN Enthusiast | <br> Technologist </div>
             </v-row>
         </v-container>  
     </v-layout>
