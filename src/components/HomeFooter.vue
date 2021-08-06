@@ -2,7 +2,7 @@
 <v-footer dark padless id="footer">
     <v-card flat tile class="grey darken-4 white--text text-center" dark dense width="100%">
       <v-card-text>
-        <v-btn v-for="contactLink in contactLinks" :key="contactLink" class="mx-4 white--text pt-0 grey-darken-4" :href="contactLink.link" text>
+        <v-btn v-for="contactLink in contactLinks" :key="contactLink" class="mx-4 white--text pt-0 grey-darken-4" :href="contactLink.link" target="_blank" text>
           <v-icon x-large>
             {{ contactLink.icon }}
           </v-icon>
